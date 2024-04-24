@@ -1,0 +1,80 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Ensure full viewport height */
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff; /* White background for forms */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1, h2, h3 {
+    color: #333; /* Dark gray headings */
+}
+
+p {
+    color: #666; /* Medium gray paragraphs */
+}
+
+/* Form Styles */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    width: 100%; /* Set full width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Link Styles */
+
+a {
+    color: #007bff; /* Blue links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%; /* Adjust container width for smaller screens */
+    }
+}
